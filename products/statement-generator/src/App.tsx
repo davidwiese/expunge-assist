@@ -53,7 +53,7 @@ const App: React.FC = () => {
 
   return (
     <ThemeProvider theme={customMuiTheme}>
-      <Router basename="/">
+      <Router basename="/expunge-assist">
         <RoutingContextProvider>
           <AffirmationContextProvider>
             <FormStateContextProvider>
