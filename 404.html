@@ -8,7 +8,7 @@
       const path = window.location.pathname;
       const is404 = path.endsWith('/404.html');
       if (!is404) {
-        window.location = `/index.html/${path}`;
+        window.location = `/index.html#${path}`;
       }
     </script>
   </head>
